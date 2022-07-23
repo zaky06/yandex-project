@@ -12,7 +12,7 @@
   display: flex;
 }
 
-.fieldset, .fieldset__input {
+.fieldset {
   border: none;
 }
 
