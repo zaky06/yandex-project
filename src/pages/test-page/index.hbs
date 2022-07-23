@@ -1,0 +1,20 @@
+---
+id: "root"
+names: "names" 
+---
+<html>
+    <head>
+        <script src="test-page.js" type="module"></script>
+    </head>
+    <body>
+        <div id="{{ id }}"></div>
+        <ul>
+            {{#each names}}
+                <li class="name">
+                    {{ this }}
+                </li>
+            {{/each}}
+        </ul>
+        <a css-module="button_back" href="../../../index.hbs">Back</a>
+    </body>
+</html> 
