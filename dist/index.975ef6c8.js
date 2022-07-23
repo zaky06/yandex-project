@@ -532,48 +532,11 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
-var _sum = require("./modules/sum");
+var _sum = require("./partials/sum");
 const root = document.querySelector("#root");
 root.textContent = (0, _sum.sum)(6, -1).toString();
 
-},{"./modules/sum":"88j4g"}],"88j4g":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "sum", ()=>sum);
-function sum(...args) {
-    if (args.length === 0) throw Error("sum required at least 1 argument");
-    return args.reduce((result, current)=>result + current, 0);
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+},{"./partials/sum":"kSx35"}],"kSx35":[function(require,module,exports) {
 
 },{}]},["ShInH","8lqZg"], "8lqZg", "parcelRequired784")
 

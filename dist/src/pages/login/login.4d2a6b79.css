@@ -1,0 +1,19 @@
+.fieldset, .fieldset__input {
+  border: none;
+}
+
+.main {
+  border: 1px solid #000;
+  margin: 100px;
+}
+
+.title {
+  justify-content: center;
+  display: flex;
+}
+
+.fieldset, .fieldset__input {
+  border: none;
+}
+
+/*# sourceMappingURL=login.4d2a6b79.css.map */
