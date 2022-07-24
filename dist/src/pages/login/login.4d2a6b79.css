@@ -1,3 +1,5 @@
+
+
 .fieldset {
   color: #303030;
   border: none;
@@ -5,14 +7,12 @@
 
 .fieldset__input {
   width: 100%;
+  background-color: #f2f2f2;
   border: none;
   border-bottom: 1px solid #b1b6bd;
   outline: none;
-  justify-content: space-between;
   display: flex;
 }
-
-
 
 .helpPosition {
   justify-content: center;
@@ -46,6 +46,7 @@ body {
 
 .main {
   width: 400px;
+  background-color: #f2f2f2;
   border: 1px solid #b1b6bd;
   border-radius: 4px;
   margin-top: 15%;

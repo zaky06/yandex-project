@@ -9,15 +9,15 @@
     </head>
     <body>
         <div class="main">
-            <h1 class="title">Войти</h1>
+            <h1 class="title">Добро пожаловать</h1>
             <form class="form_login">
                 {{> fieldset label="Логин" type="text" name="login"}}
                 {{> fieldset label="Пароль" type="password" name="password"}}
                 <div class="helpPosition">
-                    {{> button label="Авторизоваться"}}
+                    {{> button label="Войти"}}
                 </div>
                 {{!-- {{> a href="#" text="Don't Have an Account?"}} --}}
-                <a class="linkToRegistr" href="">Создать аккаунт</a>
+                <a class="linkToRegistr" href="/src/pages/registration/registration.hbs">Создать аккаунт</a>
             </form>
         </div>
     </body>
