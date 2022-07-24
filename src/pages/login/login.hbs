@@ -9,12 +9,12 @@
     </head>
     <body>
         <div class="main">
-            <h1 class="title">Login</h1>
+            <h1 class="title">Войти</h1>
             <form class="form_login">
                 {{> fieldset label="Логин" type="text" name="login"}}
                 {{> fieldset label="Пароль" type="password" name="password"}}
                 {{> button label="Авторизоваться"}}
-                <a href="">Don't Have an Account?</a>
+                {{> a href="" text="Don't Have an Account?"}}
             </form>
         </div>
     </body>
