@@ -13,8 +13,11 @@
             <form class="form_login">
                 {{> fieldset label="Логин" type="text" name="login"}}
                 {{> fieldset label="Пароль" type="password" name="password"}}
-                {{> button label="Авторизоваться"}}
-                {{> a href="" text="Don't Have an Account?"}}
+                <div class="helpPosition">
+                    {{> button label="Авторизоваться"}}
+                </div>
+                {{!-- {{> a href="#" text="Don't Have an Account?"}} --}}
+                <a class="linkToRegistr" href="">Don't Have an Account?</a>
             </form>
         </div>
     </body>

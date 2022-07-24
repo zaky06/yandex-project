@@ -1,19 +1,23 @@
 .fieldset {
+  color: #303030;
   border: none;
 }
 
 .fieldset__input {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #b1b6bd;
   outline: none;
   justify-content: space-between;
   display: flex;
 }
 
-.form_login {
-  width: 250px;
-  box-sizing: border-box;
+
+
+.helpPosition {
+  justify-content: center;
+  padding: 15px;
+  display: flex;
 }
 
 .button_login {
@@ -26,6 +30,15 @@
   text-decoration: none;
 }
 
+.linkToRegistr {
+  color: #fcba03;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 25px;
+  text-decoration: none;
+  display: flex;
+}
+
 body {
   justify-content: center;
   display: flex;
@@ -33,11 +46,12 @@ body {
 
 .main {
   width: 400px;
-  border: 1px solid #000;
+  border: 1px solid #b1b6bd;
   margin-top: 15%;
 }
 
 .title {
+  color: #303030;
   justify-content: center;
   display: flex;
 }
