@@ -1,19 +1,40 @@
-.fieldset, .fieldset__input {
+.fieldset {
   border: none;
 }
 
+.fieldset__input {
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.form_login {
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.button_login {
+  color: #fff;
+  text-align: center;
+  background-color: #fcba03;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+}
+
+body {
+  justify-content: center;
+  display: flex;
+}
+
 .main {
+  width: 400px;
   border: 1px solid #000;
-  margin: 100px;
+  margin-top: 15%;
 }
 
 .title {
   justify-content: center;
   display: flex;
-}
-
-.fieldset {
-  border: none;
 }
 
 /*# sourceMappingURL=login.4d2a6b79.css.map */
