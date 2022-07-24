@@ -47,6 +47,7 @@ body {
 .main {
   width: 400px;
   border: 1px solid #b1b6bd;
+  border-radius: 4px;
   margin-top: 15%;
 }
 
