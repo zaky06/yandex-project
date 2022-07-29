@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;ACEA","sources":["src/styles/dialogs_styles/input.pcss","src/styles/dialogs.pcss"],"sourcesContent":[".search_dialogs {\n    background-color: green;\n}\n","@import \"./dialogs_styles/input.pcss\";\n\nbody {\n    display: flex; \n    flex-wrap: wrap;\n}"],"names":[],"version":3,"file":"dialogs.84e1484c.css.map","sourceRoot":"/__parcel_source_root/"}
