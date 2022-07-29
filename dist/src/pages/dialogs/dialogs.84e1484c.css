@@ -1,10 +1,61 @@
 .search_dialogs {
-  background-color: green;
+  background-color: ;
+}
+
+.header {
+  background-color: #303030;
+  justify-content: space-between;
+  display: flex;
+  top: 0;
+}
+
+.header_elems {
+  margin: 10px;
+  display: flex;
+}
+
+.header_elems a {
+  color: #fcba03;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 body {
-  flex-wrap: wrap;
+  margin: 0;
+}
+
+.dialogs {
+  heigth: 100%;
+  width: 300px;
+  border-right: 1px solid #000;
+}
+
+.card_elem img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.card_elem {
+  border-bottom: 1px solid #000;
   display: flex;
+}
+
+.search {
+  justify-content: center;
+  padding-top: 10px;
+  display: flex;
+}
+
+.search_input {
+  width: 80%;
+}
+
+.mini_message {
+  color: #b1b6bd;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=dialogs.84e1484c.css.map */

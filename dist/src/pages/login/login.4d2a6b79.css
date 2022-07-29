@@ -40,6 +40,7 @@
 }
 
 .header {
+  background-color: #303030;
   justify-content: space-between;
   display: flex;
   top: 0;
@@ -55,6 +56,10 @@
   margin: 10px;
   font-size: 20px;
   text-decoration: none;
+}
+
+body {
+  margin: 0;
 }
 
 .main {
