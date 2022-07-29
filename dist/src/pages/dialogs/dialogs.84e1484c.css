@@ -28,7 +28,7 @@ body {
 .dialogs {
   heigth: 100%;
   width: 300px;
-  border-right: 1px solid #000;
+  border-right: 1px solid #b1b6bd;
 }
 
 .card_elem img {
@@ -39,7 +39,7 @@ body {
 }
 
 .card_elem {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #b1b6bd;
   display: flex;
 }
 
