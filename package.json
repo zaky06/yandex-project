@@ -13,6 +13,7 @@
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "@parcel/transformer-postcss": "^2.6.2",
+    "handlebars": "^4.7.7",
     "parcel": "^2.6.2",
     "path-browserify": "^1.0.1",
     "postcss": "^8.4.14",

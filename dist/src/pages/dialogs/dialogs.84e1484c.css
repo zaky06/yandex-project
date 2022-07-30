@@ -31,14 +31,14 @@ body {
   border-right: 1px solid #b1b6bd;
 }
 
-.card_elem img {
+.card img {
   height: 60px;
   width: 60px;
   border-radius: 100px;
   margin: 10px;
 }
 
-.card_elem {
+.card {
   border-bottom: 1px solid #b1b6bd;
   display: flex;
 }
