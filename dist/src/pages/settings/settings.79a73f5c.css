@@ -64,7 +64,7 @@ body {
 
 .main {
   width: 400px;
-  background-color: #b1b6bd;
+  background-color: #f2f2f2;
   border: 1px solid #b1b6bd;
   border-radius: 4px;
   margin: 5% auto 20px;
@@ -96,6 +96,12 @@ body {
 .wrapper {
   flex-wrap: wrap;
   justify-content: center;
+  display: flex;
+}
+
+.button_settings {
+  justify-content: center;
+  padding: 20px;
   display: flex;
 }
 
