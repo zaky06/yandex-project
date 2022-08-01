@@ -23,9 +23,22 @@
             <div class="change_avatar">
                 <input class="change_avatar_input" placeholder="" type="file">
             </div>
-            <p>Изменить аватар</p>
         </div>
-        
+        <p class="change_avatar_text">Изменить аватар</p>
+        <form class="form_settings">
+            <div class="wrapper">
+                {{> fieldset label="Имя" type="text" name="first_name"}}
+                {{> fieldset label="Фамилия" type="text" name="second_name"}}
+            </div>
+            <div class="wrapper">
+                {{> fieldset label="Почта" type="email" name="email"}}
+                {{> fieldset label="Телефон" type="tel" name="mumber"}}
+            </div>
+            <div class="wrapper">
+                {{> fieldset label="Логин" type="text" name="login"}}
+                {{> fieldset label="Пароль" type="password" name="password"}}
+            </div>
+        </form>
     </div>
 </body>
 </html>

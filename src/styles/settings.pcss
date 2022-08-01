@@ -1,3 +1,7 @@
+@import "./settings_styles/form.pcss";
+@import "./settings_styles/fieldset.pcss";
+@import "./settings_styles/button.pcss";
+@import "./settings_styles/link.pcss";
 @import "./header.pcss";
 
 body {
@@ -7,7 +11,12 @@ body {
 .main {
     background-color: #b1b6bd;
     margin: 20px;
-    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #b1b6bd;
+    width: 400px;
+    margin-top: 5%;
+    border-radius: 4px;
 }
 
 .card {
@@ -27,4 +36,14 @@ body {
 
 .change_avatar_input {
     display: none;
+}
+
+.change_avatar_text {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
