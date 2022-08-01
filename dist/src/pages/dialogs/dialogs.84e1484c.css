@@ -22,13 +22,20 @@
 }
 
 body {
+  heigth: auto;
   margin: 0;
 }
 
 .dialogs {
-  heigth: 100%;
+  heigth: auto;
   width: 300px;
   border-right: 1px solid #b1b6bd;
+  position: fixed;
+}
+
+.cards {
+  height: 600px;
+  overflow-y: scroll;
 }
 
 .card img {

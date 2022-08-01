@@ -537,19 +537,56 @@ var _handlebars = require("handlebars");
 var _handlebarsDefault = parcelHelpers.interopDefault(_handlebars);
 const cardsData = [
     {
+        img: "http://sun9-3.userapi.com/s/v1/if1/y72Ov_XZPLyuIeAQsCKjkYj31CV4h3ULfIBf755hFxDLRpqvvyxv0Rcs-RDqK0dOBufGqVX5.jpg?size=200x235&quality=96&crop=0,0,500,588&ava=1",
         name: "Natasha",
         message: "\u041D\u0430\u0443\u0447\u0438 \u0432\u0435\u0440\u0441\u0442\u0430\u0442\u044C"
     },
     {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZSMuyms_Fot3FgBtYYErTU2rMWmYwqi27cPw2Sno4ZkLKOVH6kLRCOmgKnP5-lHSuv0&usqp=CAU",
         name: "Vika",
         message: "\u041A\u0430\u043A \u0442\u044B \u044D\u0442\u043E \u0441\u0434\u0435\u043B\u0430\u043B?"
+    },
+    {
+        img: "https://i.pinimg.com/736x/b9/59/f1/b959f1670d2631589643575de5a782b7.jpg",
+        name: "Vanya",
+        message: "\u042F \u0442\u0443\u0442 \u0441\u0438\u0436\u0443 \u0434\u0430\u0432\u043D\u043E"
+    },
+    {
+        img: "https://img2.akspic.ru/crops/2/1/0/8/5/158012/158012-volk-belyj_medved-lazurnyj-sinij-bakenbardy-1080x1920.jpg",
+        name: "Patrik",
+        message: "\u0415\u043C \u0432\u043A\u0443\u0441\u043D\u044B\u0439 \u0442\u043E\u0440\u0442"
+    },
+    {
+        img: "https://drasler.ru/wp-content/uploads/2019/05/%D0%9C%D0%B8%D0%BB%D1%8B%D0%B5-%D0%BD%D0%B5-%D1%80%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-029.jpg",
+        name: "Liza",
+        message: "\u041F\u043E\u0439\u0434\u0435\u0448\u044C \u0433\u0443\u043B\u044F\u0442\u044C?"
+    },
+    {
+        img: "https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg",
+        name: "Alex",
+        message: "damn bro"
+    },
+    {
+        img: "https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg",
+        name: "Alex",
+        message: "damn bro"
+    },
+    {
+        img: "https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg",
+        name: "Alex",
+        message: "damn bro"
+    },
+    {
+        img: "https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg",
+        name: "Alex",
+        message: "damn bro"
     }, 
 ];
 const template = (0, _handlebarsDefault.default).compile(`
     <div class="cards">
         {{#each this}}
             <div class="card">
-                <img src="https://otvet.imgsmail.ru/download/30760391_5a45473ac494df8439c1044d70743ce2_800.png" alt="">
+                <img src="{{ img }}" alt="">
                 <div>
                     <p class="name">{{ name }}</p>
                     <p class="mini_message">{{ message }}</p>
