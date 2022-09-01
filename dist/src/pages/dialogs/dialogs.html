@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://css.gg/attachment.css" rel="stylesheet">
     <link rel="stylesheet" href="/src/pages/dialogs/dialogs.84e1484c.css">
     <script src="/src/pages/dialogs/dialogs.b03f7f52.js" defer=""></script>
+    <script src="/src/pages/dialogs/dialogs.5750422e.js" defer=""></script>
 </head>
 <body>
     <header class="header">
@@ -19,14 +21,25 @@
             <a href="/src/pages/registration/registration.html">Регистрация</a>
         </div>
     </header>
-    <div class="dialogs">
-        <div class="search">
-            <input type="search" class="search_input" placeholder="поиск" name="search">
+    <div class="main">
+        <div class="dialogs">
+            <div class="search">
+                <input type="search" class="search_input" placeholder="поиск" name="search">
+            </div>
+            <div id="cards"></div>
         </div>
-        <div id="cards"></div>
+        <div class="messages">
+            <div class="message">
+                <img class="profile_img" src="http://sun9-3.userapi.com/s/v1/if1/y72Ov_XZPLyuIeAQsCKjkYj31CV4h3ULfIBf755hFxDLRpqvvyxv0Rcs-RDqK0dOBufGqVX5.jpg?size=200x235&quality=96&crop=0,0,500,588&ava=1" alt="">
+                <img class="icon_message" src="https://img.icons8.com/small/32/000000/bookmark-ribbon.png">
+            </div>
+            <div id="container"></div>
+            <div class="message_input">
+                <input type="text" placeholder="написать сообщение">
+                <button>Отправить</button>
+            </div>
+        </div>
     </div>
-    <div class="massage">
-        
-    </div>
+    
 </body>
 </html>
