@@ -567,7 +567,6 @@ const messageData = [
         id: "Natasha"
     }
 ];
-// const isMax = (id) => id === "Max"
 (0, _handlebarsDefault.default).registerHelper("isMax", function(id) {
     return id === "Max";
 });

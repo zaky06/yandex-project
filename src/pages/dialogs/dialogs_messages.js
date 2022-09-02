@@ -33,7 +33,6 @@ const messageData = [
     }
   ];
 
-  // const isMax = (id) => id === "Max"
   Handlebars.registerHelper('isMax', function (id) {
     return id === "Max";
   });
