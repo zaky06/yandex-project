@@ -574,7 +574,7 @@ const messageData = [
 const template = (0, _handlebarsDefault.default).compile(`
   
           {{#each this}}
-              <div class="mess {{#if (isMax id)}}right{{else}}left{{/if}}">
+              <div class="message {{#if (isMax id)}}right{{else}}left{{/if}}">
                   <img src="{{ img }}" alt="">
                   <p class="dialog_mess">{{ message }}</p>
                   <span class="time">{{ time }}</span>

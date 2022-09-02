@@ -10,6 +10,7 @@ body {
     display: flex; 
     flex-wrap: nowrap;
     height: calc(100vh - 63px);
+    align-items: stretch;
 }
 
 .dialogs {
@@ -32,8 +33,6 @@ body {
 .card{
     display: flex;
     border-bottom: 1px solid #b1b6bd;
-    border-right: 1px solid #b1b6bd;
-
 }
 
 .search {
@@ -41,7 +40,6 @@ body {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-right: 1px solid #b1b6bd;
 }
 
 .search_input {
@@ -57,13 +55,15 @@ body {
     color: #b1b6bd;
 }
 
-.messages {
+.container {
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-between;
+    border-left: 1px solid #b1b6bd;
 }
 
-.message {
+.profile_title {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #b1b6bd;
@@ -74,25 +74,26 @@ body {
 
 
 
-.profile_img {
+.profile_title_img {
     border-radius: 100px;
     height: 60px;
     width: 60px;
     margin: 10px;
 }
 
-.icon_message {
+.profile_title_icon {
     height: 32px;
     width: 32px;
     padding-right: 10px;
 }
 
-.container {
+.messages {
     overflow-y: scroll;
-    overflow: hidden;
+    flex: 1;
+
 }
 
-.mess {
+.message {
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
@@ -100,7 +101,7 @@ body {
     margin: 10px 10px;
 }
 
-.mess img {
+.message img {
     float: left;
     max-width: 60px;
     width: 100%;
