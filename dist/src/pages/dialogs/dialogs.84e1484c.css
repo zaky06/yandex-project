@@ -73,10 +73,13 @@ body {
 
 .messages {
   width: 100%;
+  flex-flow: column;
+  display: flex;
 }
 
 .message {
   width: 100%;
+  height: 80px;
   border-bottom: 1px solid #b1b6bd;
   justify-content: space-between;
   align-items: center;
@@ -142,14 +145,12 @@ body {
 }
 
 .message_input {
-  width: -webkit-fill-available;
   height: 70px;
   background-color: #fff;
   border-top: 1px solid #b1b6bd;
   justify-content: space-between;
   align-items: center;
   display: flex;
-  position: fixed;
   bottom: 0;
 }
 

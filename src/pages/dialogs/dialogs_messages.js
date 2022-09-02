@@ -39,7 +39,7 @@ const messageData = [
   });
 
   const template = Handlebars.compile(`
-      <div class="container">
+  
           {{#each this}}
               <div class="mess {{#if (isMax id)}}right{{else}}left{{/if}}">
                   <img src="{{ img }}" alt="">
@@ -47,6 +47,6 @@ const messageData = [
                   <span class="time">{{ time }}</span>
               </div>
           {{/each}}
-      </div>`);
+      `);
   
       document.getElementById("container").innerHTML = template(messageData);

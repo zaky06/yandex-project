@@ -572,7 +572,7 @@ const messageData = [
     return id === "Max";
 });
 const template = (0, _handlebarsDefault.default).compile(`
-      <div class="container">
+  
           {{#each this}}
               <div class="mess {{#if (isMax id)}}right{{else}}left{{/if}}">
                   <img src="{{ img }}" alt="">
@@ -580,7 +580,7 @@ const template = (0, _handlebarsDefault.default).compile(`
                   <span class="time">{{ time }}</span>
               </div>
           {{/each}}
-      </div>`);
+      `);
 document.getElementById("container").innerHTML = template(messageData);
 
 },{"handlebars":"i0QfX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9RO1k","8oOca"], "8oOca", "parcelRequired784")

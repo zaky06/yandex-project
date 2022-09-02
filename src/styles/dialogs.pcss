@@ -59,6 +59,8 @@ body {
 
 .messages {
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .message {
@@ -67,6 +69,7 @@ body {
     border-bottom: 1px solid #b1b6bd;
     width: 100%;
     align-items: center;
+    height: 80px;
 }
 
 
@@ -131,9 +134,7 @@ body {
 }
 
 .message_input {
-    width: -webkit-fill-available;
     bottom: 0;
-    position: fixed;
     height: 70px;
     background-color: white;
     border-top: 1px solid #b1b6bd;
