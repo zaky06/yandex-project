@@ -2,7 +2,6 @@
   "name": "yandex-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +14,6 @@
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "@parcel/transformer-postcss": "^2.6.2",
     "express": "^4.18.1",
-    "handlebars": "^4.7.7",
     "parcel": "^2.6.2",
     "path-browserify": "^1.0.1",
     "postcss": "^8.4.14",
@@ -23,6 +21,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "handlebars": "^4.7.7",
     "express-handlebars": "^6.0.6"
   }
 }
