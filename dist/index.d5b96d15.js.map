@@ -1,1 +1,0 @@
-{"mappings":"AAEaA,SAASC,cAAc,SAC/BC,aAAc,E,GAAAC,KAAI,GAAG,GAAIC","sources":["src/index.js"],"sourcesContent":["import {sum} from './partials/sum';\n\nconst root = document.querySelector('#root');\nroot.textContent = sum(6, -1).toString();"],"names":["document","querySelector","textContent","sum","toString"],"version":3,"file":"index.d5b96d15.js.map"}
